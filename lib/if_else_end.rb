@@ -2,8 +2,11 @@ current_time = Time.now
 
 current_time.to_i
 
-if current_time % 2 == 0
+def even?
+ if current_time % 2 == 0
   puts "Even!"
-else
+ else
   puts "Odd!"
-end# Write your solution here
+ end
+end
+# Write your solution here
